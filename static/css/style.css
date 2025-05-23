@@ -21,6 +21,20 @@ body {
   background-size: 40px 40px;
 }
 
+.lang-switch {
+  text-align: right;
+  padding: 1rem;
+}
+
+.lang-switch a {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.5rem;
+  border: 1px solid var(--accent);
+  border-radius: 4px;
+}
+
 .header-container {
   display: flex;
   grid-template-columns: auto 1fr;
@@ -90,4 +104,32 @@ footer {
 a {
   color: var(--accent);
   text-decoration: none;
+}
+
+.header-container2 {
+  display: flex;
+  grid-template-columns: auto 1fr;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.aboutme {
+  background-color: #112240;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.aboutme h3 {
+  margin-bottom: 0.5rem;
+}
+
+.aboutme i {
+  margin-right: 0.5rem;
+  color: var(--accent);
+}
+
+.aboutme p {
+  color: var(--text);
 }
